@@ -224,43 +224,6 @@ body {
   animation: fade-up 1s ease 0.35s both;
 }
 
-.enter-shop {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 0.5rem;
-  padding: 0.85rem 1.6rem;
-  font-family: "Special Elite", cursive;
-  font-size: 1.05rem;
-  letter-spacing: 0.06em;
-  color: var(--wood-deep);
-  text-decoration: none;
-  background: linear-gradient(180deg, #ffe9a0, var(--brass));
-  border: 3px solid #5c4010;
-  border-radius: 999px;
-  box-shadow:
-    0 4px 0 #3d2a08,
-    0 10px 24px rgba(0, 0, 0, 0.35);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  animation: fade-up 1s ease 0.5s both;
-}
-
-.enter-shop:hover,
-.enter-shop:focus-visible {
-  transform: translateY(-3px);
-  box-shadow:
-    0 7px 0 #3d2a08,
-    0 14px 28px rgba(0, 0, 0, 0.4);
-  outline: none;
-}
-
-.enter-shop:active {
-  transform: translateY(2px);
-  box-shadow:
-    0 1px 0 #3d2a08,
-    0 4px 12px rgba(0, 0, 0, 0.3);
-}
-
 @keyframes fade-up {
   from {
     opacity: 0;
@@ -399,8 +362,7 @@ body {
   .awning,
   .sign-frame,
   .sign-line,
-  .tagline,
-  .enter-shop {
+  .tagline {
     animation: none;
   }
 
