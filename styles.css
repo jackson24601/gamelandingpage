@@ -71,13 +71,13 @@ body {
 .storefront {
   position: relative;
   z-index: 1;
-  min-height: 100vh;
-  min-height: 100dvh;
+  min-height: 70vh;
+  min-height: 70dvh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 2.5rem 1.25rem 3rem;
+  padding: 2.5rem 1.25rem 2rem;
   gap: 1.75rem;
   background:
     linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.25) 100%),
@@ -273,6 +273,13 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 1.15rem;
+  justify-content: center;
+}
+
+.game-shelf > li {
+  max-width: 320px;
+  width: 100%;
+  justify-self: center;
 }
 
 .game-plaque {
