@@ -4,6 +4,10 @@ A simple old-timey landing page that links out to all the games.
 
 Open `index.html` in a browser, or deploy the repo (GitHub Pages works great).
 
+### Games on the shelf
+
+- [Humans v. Goblins](https://jackson24601.github.io/medieval/)
+
 ## Adding a game
 
 In `index.html`, add another item inside the `.game-shelf` list:

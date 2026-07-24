@@ -71,13 +71,13 @@ body {
 .storefront {
   position: relative;
   z-index: 1;
-  min-height: 100vh;
-  min-height: 100dvh;
+  min-height: 70vh;
+  min-height: 70dvh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 2.5rem 1.25rem 3rem;
+  padding: 2.5rem 1.25rem 2rem;
   gap: 1.75rem;
   background:
     linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.25) 100%),
@@ -224,43 +224,6 @@ body {
   animation: fade-up 1s ease 0.35s both;
 }
 
-.enter-shop {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 0.5rem;
-  padding: 0.85rem 1.6rem;
-  font-family: "Special Elite", cursive;
-  font-size: 1.05rem;
-  letter-spacing: 0.06em;
-  color: var(--wood-deep);
-  text-decoration: none;
-  background: linear-gradient(180deg, #ffe9a0, var(--brass));
-  border: 3px solid #5c4010;
-  border-radius: 999px;
-  box-shadow:
-    0 4px 0 #3d2a08,
-    0 10px 24px rgba(0, 0, 0, 0.35);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  animation: fade-up 1s ease 0.5s both;
-}
-
-.enter-shop:hover,
-.enter-shop:focus-visible {
-  transform: translateY(-3px);
-  box-shadow:
-    0 7px 0 #3d2a08,
-    0 14px 28px rgba(0, 0, 0, 0.4);
-  outline: none;
-}
-
-.enter-shop:active {
-  transform: translateY(2px);
-  box-shadow:
-    0 1px 0 #3d2a08,
-    0 4px 12px rgba(0, 0, 0, 0.3);
-}
-
 @keyframes fade-up {
   from {
     opacity: 0;
@@ -310,6 +273,13 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 1.15rem;
+  justify-content: center;
+}
+
+.game-shelf > li {
+  max-width: 320px;
+  width: 100%;
+  justify-self: center;
 }
 
 .game-plaque {
@@ -399,8 +369,7 @@ body {
   .awning,
   .sign-frame,
   .sign-line,
-  .tagline,
-  .enter-shop {
+  .tagline {
     animation: none;
   }
 
