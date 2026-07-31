@@ -7,6 +7,7 @@ Open `index.html` in a browser, or deploy the repo (GitHub Pages works great).
 ### Games on the shelf
 
 - [Humans v. Goblins](https://jackson24601.github.io/medieval/)
+- [Space Quest](https://jackson24601.github.io/spacequest/)
 
 ## Adding a game
 
